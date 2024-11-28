@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "viral_scope_users",
+  "info": {
+    "singularName": "viral-scope-user",
+    "pluralName": "viral-scope-users",
+    "displayName": "Viral-scope-user"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "AuthId": {
+      "type": "uid"
+    },
+    "Isverified": {
+      "type": "boolean"
+    }
+  }
+}
