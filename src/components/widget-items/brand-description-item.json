@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_items_brand_description_items",
+  "info": {
+    "displayName": "BrandDescriptionItem",
+    "icon": "sliders-h"
+  },
+  "options": {},
+  "attributes": {
+    "iconUrl": {
+      "type": "string"
+    },
+    "iconPath": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_beauty_profiles",
+  "info": {
+    "displayName": "BeautyProfile",
+    "icon": "dumpster",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "bgImageUrlMobile": {
+      "type": "string"
+    },
+    "categories": {
+      "displayName": "ProfileItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.profile-item"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_brand_lists",
+  "info": {
+    "displayName": "BrandList",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "BrandListItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.brand-list-items"
+    },
+    "defaultSlug": {
+      "type": "string"
+    },
+    "headingText": {
+      "type": "string"
+    },
+    "searchText": {
+      "type": "string"
+    }
+  }
+}

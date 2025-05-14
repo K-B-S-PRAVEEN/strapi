@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_widget_offer_grid_data",
+  "info": {
+    "displayName": "OfferGridData",
+    "icon": "cheese"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewMoreLink": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "string"
+    },
+    "margin": {
+      "type": "string"
+    },
+    "isCenterText": {
+      "type": "boolean"
+    },
+    "items": {
+      "displayName": "OfferGridDataItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.offer-grid-data-item"
+    }
+  }
+}

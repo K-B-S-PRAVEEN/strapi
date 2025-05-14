@@ -1,0 +1,97 @@
+{
+  "collectionName": "components_blog_widget_blog_beauty_stops",
+  "info": {
+    "displayName": "BlogBeautyStop",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardDescription": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BlogBeautyStopItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-beauty-stop-item"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewMorePath": {
+      "type": "string"
+    },
+    "beautyButton": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "boolean"
+    },
+    "shareIcon": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "viewIcon": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "viewsText": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

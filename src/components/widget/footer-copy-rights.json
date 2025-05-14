@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_footer_copy_rights",
+  "info": {
+    "displayName": "FooterCopyRights",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "FooterCopyRightItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.footer-copy-right-item"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    }
+  }
+}

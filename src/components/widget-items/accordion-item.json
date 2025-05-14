@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_accordion_items",
+  "info": {
+    "displayName": "AccordionItem",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titlePath": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

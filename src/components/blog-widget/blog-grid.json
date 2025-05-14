@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_blog_widget_blog_grids",
+  "info": {
+    "displayName": "BlogGrid",
+    "icon": "barcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "Maintext": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BlogGridItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-grid-item"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

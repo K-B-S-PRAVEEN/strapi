@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_blog_widget_blog_lists",
+  "info": {
+    "displayName": "BlogList",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BlogListItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-list-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "viewAllText": {
+      "type": "string"
+    },
+    "viewAllPath": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "isComponent": {
+      "type": "boolean"
+    },
+    "desktopColumns": {
+      "type": "integer"
+    },
+    "mobileColumns": {
+      "type": "integer"
+    },
+    "sortByBottom": {
+      "type": "boolean"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

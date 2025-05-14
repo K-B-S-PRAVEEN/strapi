@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_blog_widget_items_blog_hero_banner_items",
+  "info": {
+    "displayName": "BlogHeroBannerItem",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "mobileImage": {
+      "type": "string"
+    },
+    "chipText": {
+      "type": "string"
+    },
+    "readButton": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_widget_items_footer_items",
+  "info": {
+    "displayName": "FooterItem",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subItems": {
+      "displayName": "FooterSubItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.footer-sub-item"
+    }
+  }
+}

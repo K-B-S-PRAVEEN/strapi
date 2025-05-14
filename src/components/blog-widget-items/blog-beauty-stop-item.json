@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_blog_widget_items_blog_beauty_stop_items",
+  "info": {
+    "displayName": "BlogBeautyStopItem",
+    "icon": "comment-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "viewsIcon": {
+      "type": "string"
+    },
+    "viewsText": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "shareIcon": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

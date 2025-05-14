@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_items_footer_payment_items",
+  "info": {
+    "displayName": "FooterPaymentItem",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "secondImageUrl": {
+      "type": "string"
+    },
+    "secondImageUrlPath": {
+      "type": "string"
+    },
+    "subTextMobile": {
+      "type": "string"
+    }
+  }
+}

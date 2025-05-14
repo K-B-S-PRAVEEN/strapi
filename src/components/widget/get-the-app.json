@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_widget_get_the_apps",
+  "info": {
+    "displayName": "GetTheApp",
+    "icon": "bread-slice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "availableOn": {
+      "type": "string"
+    },
+    "playStoreimgUrl": {
+      "type": "string"
+    },
+    "playStoreImgUrlMobile": {
+      "type": "string"
+    },
+    "downloadText": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "playStoreImgPath": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "GetTheAppItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.get-the-app-item"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    },
+    "appStoreImageUrl": {
+      "type": "string"
+    },
+    "appStoreImageUrlMobile": {
+      "type": "string"
+    },
+    "appStoreImgPath": {
+      "type": "string"
+    }
+  }
+}

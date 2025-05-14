@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_configurations",
+  "info": {
+    "displayName": "configurations",
+    "icon": "campground",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPaddding": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget-items.configuration-item"
+    }
+  }
+}

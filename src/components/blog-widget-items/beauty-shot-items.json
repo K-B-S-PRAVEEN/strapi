@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_blog_widget_items_beauty_shot_items",
+  "info": {
+    "displayName": "BeautyShotItems",
+    "icon": "chevron-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "playIconUrl": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

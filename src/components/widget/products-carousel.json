@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_widget_products_carousels",
+  "info": {
+    "displayName": "ProductsCarousel",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewMoreLink": {
+      "type": "string"
+    },
+    "isTextHover": {
+      "type": "boolean"
+    },
+    "showTextOnHover": {
+      "type": "string"
+    },
+    "showGradient": {
+      "type": "string"
+    },
+    "itemBackgroundSpacing": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

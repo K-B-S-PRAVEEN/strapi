@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_widget_items_profile_items",
+  "info": {
+    "displayName": "ProfileItem",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backgroundImg": {
+      "type": "string"
+    },
+    "backgroundImgMobile": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "subCategories": {
+      "displayName": "ProfileSubItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.profile-sub-item"
+    },
+    "secondButtonText": {
+      "type": "string"
+    },
+    "secondButtonPath": {
+      "type": "string"
+    },
+    "pickedText": {
+      "type": "string"
+    }
+  }
+}

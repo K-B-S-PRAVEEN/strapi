@@ -1,0 +1,122 @@
+{
+  "collectionName": "components_widget_offers_grids",
+  "info": {
+    "displayName": "OffersGrid",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "showTextOnHover": {
+      "type": "boolean"
+    },
+    "showGradient": {
+      "type": "boolean"
+    },
+    "itemBackgroundSpacing": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.offers-grid-items"
+    },
+    "cardBorder": {
+      "type": "boolean"
+    },
+    "itemPaddingBottom": {
+      "type": "string"
+    },
+    "itemPaddingX": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "desktopColumns": {
+      "type": "integer"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewMoreLink": {
+      "type": "string"
+    },
+    "mobileColumns": {
+      "type": "string"
+    },
+    "mobileItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.offers-grid-items"
+    },
+    "viewMoreWeb": {
+      "type": "boolean"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "isBgColor": {
+      "type": "string"
+    },
+    "marginLeft": {
+      "type": "string"
+    },
+    "viewMoreMobile": {
+      "type": "boolean"
+    },
+    "itemPaddingBottomMobile": {
+      "type": "string"
+    },
+    "itempaddingXMobile": {
+      "type": "string"
+    },
+    "WebtextPaddingX": {
+      "type": "string"
+    },
+    "WebtextPaddingY": {
+      "type": "string"
+    },
+    "MobiletextPaddingX": {
+      "type": "string"
+    },
+    "MobiletextPaddingY": {
+      "type": "string"
+    },
+    "isCenterText": {
+      "type": "boolean"
+    },
+    "mobileMargin": {
+      "type": "string"
+    },
+    "showTileOnImage": {
+      "type": "boolean"
+    },
+    "disableGenericBottomSpace": {
+      "type": "boolean"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

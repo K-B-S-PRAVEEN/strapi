@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_widget_brands_grids",
+  "info": {
+    "displayName": "BrandsGrid",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "contentImageUrl": {
+      "type": "string"
+    },
+    "contentImageUrlMobile": {
+      "type": "string"
+    },
+    "contentImagePath": {
+      "type": "string"
+    },
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "bgMobileImageUrl": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "contentImageisNewTab": {
+      "type": "boolean"
+    },
+    "items": {
+      "displayName": "BrandsGridItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.brands-grid-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

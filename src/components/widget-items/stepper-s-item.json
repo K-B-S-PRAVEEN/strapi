@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_stepper_s_items",
+  "info": {
+    "displayName": "StepperSItem",
+    "icon": "bowling-ball"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "textPath": {
+      "type": "string"
+    },
+    "categoryId": {
+      "type": "string"
+    }
+  }
+}

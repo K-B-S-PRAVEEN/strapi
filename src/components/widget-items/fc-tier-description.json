@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_widget_items_fc_tier_descriptions",
+  "info": {
+    "displayName": "FcTierDescription",
+    "icon": "dice-three",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "crownLogo": {
+      "type": "string"
+    },
+    "crownLogoPath": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlPath": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "boolean"
+    },
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "bgImageUrlMobile": {
+      "type": "string"
+    },
+    "tierDescription": {
+      "type": "richtext"
+    },
+    "enrollButtonText": {
+      "type": "string"
+    },
+    "enrollButtonPath": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "enumeration",
+      "enum": [
+        "tierOne",
+        "tierTwo",
+        "tierThree",
+        "tierFour"
+      ]
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "tierBenefits": {
+      "type": "richtext"
+    }
+  }
+}

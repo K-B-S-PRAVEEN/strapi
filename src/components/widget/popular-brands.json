@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_widget_popular_brands",
+  "info": {
+    "displayName": "popularBrands"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "populrBrandsItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.populr-brands-item"
+    }
+  }
+}

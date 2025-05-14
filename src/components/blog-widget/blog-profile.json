@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_blog_widget_blog_profiles",
+  "info": {
+    "displayName": "BlogProfile",
+    "icon": "procedures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "authorDescription": {
+      "type": "text"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

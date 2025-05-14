@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widget_items_stepper_categories",
+  "info": {
+    "displayName": "StepperCategory",
+    "icon": "cheese",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "bgImageUrlMobile": {
+      "type": "string"
+    },
+    "titleNo": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subCategories": {
+      "displayName": "StepperItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.stepper-item"
+    }
+  }
+}

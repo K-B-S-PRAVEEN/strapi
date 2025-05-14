@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_widget_items_bottom_nav_s_items",
+  "info": {
+    "displayName": "BottomNavSItem",
+    "icon": "compress"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "imgUrlMobile": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

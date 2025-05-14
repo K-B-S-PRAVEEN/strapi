@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blog_widget_items_blog_frames",
+  "info": {
+    "displayName": "BlogFrame",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "frameWidth": {
+      "type": "string"
+    },
+    "frameHeight": {
+      "type": "string"
+    },
+    "frameWidthMobile": {
+      "type": "string"
+    },
+    "frameHeightMobile": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

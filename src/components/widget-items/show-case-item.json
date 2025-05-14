@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_widget_items_show_case_items",
+  "info": {
+    "displayName": "ShowCaseItem",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

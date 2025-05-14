@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widget_items_nested_items",
+  "info": {
+    "displayName": "NestedItem",
+    "icon": "envelope-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "subCategories": {
+      "displayName": "NestedSubItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.nested-sub-item"
+    },
+    "group": {
+      "type": "string"
+    },
+    "info": {
+      "type": "richtext"
+    }
+  }
+}

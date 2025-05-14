@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_widget_items_stepper_b_items",
+  "info": {
+    "displayName": "StepperBItem",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "bgImageUrlMobile": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "quizText": {
+      "type": "string"
+    },
+    "quizPath": {
+      "type": "string"
+    },
+    "subItems": {
+      "displayName": "StepperSItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.stepper-s-item"
+    },
+    "titleTextColor": {
+      "type": "string"
+    },
+    "btnTextColor": {
+      "type": "string"
+    },
+    "btnBgColor": {
+      "type": "string"
+    }
+  }
+}

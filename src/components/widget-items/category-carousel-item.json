@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_items_category_carousel_items",
+  "info": {
+    "displayName": "CategoryCarouselItem",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "Path": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    }
+  }
+}

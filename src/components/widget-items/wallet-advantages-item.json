@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_widget_items_wallet_advantages_items",
+  "info": {
+    "displayName": "WalletAdvantagesItem",
+    "icon": "comments-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "iconPath": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "textPath": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "CUSTOMER",
+        "CREDIT",
+        "PROMOTION",
+        "CASH"
+      ]
+    }
+  }
+}

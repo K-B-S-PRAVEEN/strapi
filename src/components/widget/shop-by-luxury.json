@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_widget_shop_by_luxuries",
+  "info": {
+    "displayName": "ShopByLuxury",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "ShopByLuxuryItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.shop-by-luxury-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "promotion_id": {
+      "type": "string"
+    },
+    "promotion_name": {
+      "type": "string"
+    }
+  }
+}

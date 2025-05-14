@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_widget_items_advice_items",
+  "info": {
+    "displayName": "AdviceItems",
+    "icon": "first-aid"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "imgUrlMobile": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

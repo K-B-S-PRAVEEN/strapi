@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_items_contact_details",
+  "info": {
+    "displayName": "ContactDetails",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

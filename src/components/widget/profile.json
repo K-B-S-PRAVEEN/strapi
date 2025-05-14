@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_profiles",
+  "info": {
+    "displayName": "Profile",
+    "icon": "grin-squint"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widget_items_saved_payment_sub_items",
+  "info": {
+    "displayName": "SavedPaymentSubItem",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "errorMessage": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    }
+  }
+}

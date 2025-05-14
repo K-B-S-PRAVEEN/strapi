@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_saved_payments",
+  "info": {
+    "displayName": "SavedPayments",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "categories": {
+      "displayName": "SavedPaymentItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.saved-payment-item"
+    }
+  }
+}

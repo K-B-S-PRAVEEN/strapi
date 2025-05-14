@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widget_bottom_bars",
+  "info": {
+    "displayName": "BottomBar",
+    "icon": "candy-cane",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "barType": {
+      "type": "enumeration",
+      "enum": [
+        "None",
+        "BottomNavigationBar",
+        "FilterBar",
+        "ProductBar",
+        "PaymentBar"
+      ]
+    },
+    "showChatBot": {
+      "type": "boolean"
+    },
+    "chatbotBottom": {
+      "type": "string"
+    }
+  }
+}

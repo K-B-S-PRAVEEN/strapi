@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_messages",
+  "info": {
+    "displayName": "Message",
+    "icon": "language"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "isComponent": {
+      "type": "boolean"
+    }
+  }
+}

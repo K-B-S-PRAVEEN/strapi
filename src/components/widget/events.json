@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_events",
+  "info": {
+    "displayName": "Events",
+    "icon": "cash-register",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "EventsItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.events-item"
+    },
+    "noEventTitle": {
+      "type": "string"
+    },
+    "noEventSubTitle": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  }
+}

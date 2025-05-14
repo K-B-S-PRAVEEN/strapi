@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_blog_widget_blog_hero_banners",
+  "info": {
+    "displayName": "BlogHeroBanner",
+    "icon": "bowling-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BlogHeroBannerItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-hero-banner-item"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

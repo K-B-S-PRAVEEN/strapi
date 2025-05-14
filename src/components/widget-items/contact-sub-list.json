@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_items_contact_sub_lists",
+  "info": {
+    "displayName": "ContactSubList",
+    "icon": "bell-slash",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    }
+  }
+}

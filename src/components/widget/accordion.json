@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "comments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titlePath": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.accordion-item"
+    }
+  }
+}

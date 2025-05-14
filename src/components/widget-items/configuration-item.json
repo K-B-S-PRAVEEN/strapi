@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_items_configuration_items",
+  "info": {
+    "displayName": "ConfigurationItem",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_widget_footer_subscribes",
+  "info": {
+    "displayName": "FooterSubscribe",
+    "icon": "satellite-dish",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "facebookIconUrl": {
+      "type": "string"
+    },
+    "facebookIconPath": {
+      "type": "string"
+    },
+    "twitterIconUrl": {
+      "type": "string"
+    },
+    "twitterIconPath": {
+      "type": "string"
+    },
+    "instagramIconUrl": {
+      "type": "string"
+    },
+    "instagramIconPath": {
+      "type": "string"
+    },
+    "subscribeText": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

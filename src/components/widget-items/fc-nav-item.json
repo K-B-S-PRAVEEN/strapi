@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widget_items_fc_nav_items",
+  "info": {
+    "displayName": "FcNavItem",
+    "icon": "bug",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titlePath": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "enumeration",
+      "enum": [
+        "tierOne",
+        "tierTwo",
+        "tierThree",
+        "tierFour"
+      ]
+    },
+    "key": {
+      "type": "boolean"
+    }
+  }
+}

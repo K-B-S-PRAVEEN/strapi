@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_widget_items_hero_banner_items",
+  "info": {
+    "displayName": "HeroBannerItems",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "imageName": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    },
+    "creative_name": {
+      "type": "string"
+    },
+    "creative_slot": {
+      "type": "string"
+    }
+  }
+}

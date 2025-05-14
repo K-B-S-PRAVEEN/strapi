@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_widget_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "btnTextColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "btnPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "lineHeight": {
+      "type": "string"
+    },
+    "mobileFontSize": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

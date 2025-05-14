@@ -474,6 +474,55 @@ export interface ApiAuthorAuthor extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
+  collectionName: 'blogs';
+  info: {
+    description: '';
+    displayName: 'blog';
+    pluralName: 'blogs';
+    singularName: 'blog';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    BlogNavigation: Schema.Attribute.Component<
+      'blog-widget.blog-navigation',
+      false
+    >;
+    BottomBar: Schema.Attribute.Component<'widget.bottom-bar', false>;
+    breadcrumb: Schema.Attribute.Component<
+      'blog-widget.blog-breadcrumb',
+      false
+    >;
+    components: Schema.Attribute.DynamicZone<['blog-widget.blog-benefits']>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Blocks;
+    Footer: Schema.Attribute.Component<'widget.footer', false>;
+    footerBottom: Schema.Attribute.Component<'widget.footer-bottom', true>;
+    footerCopyRights: Schema.Attribute.Component<
+      'widget.footer-copy-rights',
+      false
+    >;
+    Header: Schema.Attribute.Component<'widget.header', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::blog.blog'> &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'seo.meta', true>;
+    slug: Schema.Attribute.UID;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.Enumeration<
+      ['other', 'listing', 'landing', 'detail']
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   collectionName: 'categories';
   info: {
@@ -1078,6 +1127,7 @@ declare module '@strapi/strapi' {
       'api::about.about': ApiAboutAbout;
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
+      'api::blog.blog': ApiBlogBlog;
       'api::category.category': ApiCategoryCategory;
       'api::global.global': ApiGlobalGlobal;
       'api::page.page': ApiPagePage;

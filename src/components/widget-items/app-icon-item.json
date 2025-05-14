@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_app_icon_items",
+  "info": {
+    "displayName": "appIconItem",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "boolean"
+    },
+    "url_png": {
+      "type": "string"
+    }
+  }
+}

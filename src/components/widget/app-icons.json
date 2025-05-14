@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_app_icons",
+  "info": {
+    "displayName": "appIcons",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "appIconItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.app-icon-item"
+    }
+  }
+}

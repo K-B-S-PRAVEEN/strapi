@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_widget_blog_navigations",
+  "info": {
+    "displayName": "BlogNavigation",
+    "icon": "file-prescription"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "NavItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.nav-item"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_widget_empty_components",
+  "info": {
+    "displayName": "EmptyComponent",
+    "icon": "border-style",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "isEmptyComponent": {
+      "type": "boolean"
+    }
+  }
+}

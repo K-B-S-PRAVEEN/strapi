@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widget_items_brands_grid_items",
+  "info": {
+    "displayName": "BrandsGridItem",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    }
+  }
+}

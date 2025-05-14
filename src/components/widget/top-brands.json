@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_top_brands",
+  "info": {
+    "displayName": "TopBrands",
+    "icon": "bowling-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.top-brands-item"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

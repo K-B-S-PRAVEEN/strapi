@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widget_items_brand_items",
+  "info": {
+    "displayName": "BrandItems",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "static",
+        "dynamic"
+      ]
+    },
+    "module": {
+      "type": "string"
+    },
+    "BrandSubItems": {
+      "displayName": "BrandSubItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.brand-sub-items"
+    }
+  }
+}

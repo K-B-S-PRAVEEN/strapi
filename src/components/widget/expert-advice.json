@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_expert_advices",
+  "info": {
+    "displayName": "ExpertAdvice",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "ExpertAdviceItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.expert-advice-item"
+    }
+  }
+}

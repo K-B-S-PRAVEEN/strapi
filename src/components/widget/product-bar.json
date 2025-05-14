@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_widget_product_bars",
+  "info": {
+    "displayName": "ProductBar",
+    "icon": "hospital-symbol"
+  },
+  "options": {},
+  "attributes": {
+    "addToCartText": {
+      "type": "string"
+    },
+    "addToCartTextColor": {
+      "type": "string"
+    },
+    "addToCartBackground": {
+      "type": "string"
+    },
+    "buyNowText": {
+      "type": "string"
+    },
+    "buyNowTextColor": {
+      "type": "string"
+    },
+    "buyNowBackground": {
+      "type": "string"
+    },
+    "goToBagText": {
+      "type": "string"
+    },
+    "gotoBagTextColor": {
+      "type": "string"
+    },
+    "goToBagBackground": {
+      "type": "string"
+    },
+    "notifyMeText": {
+      "type": "string"
+    },
+    "notifyMeTextColor": {
+      "type": "string"
+    },
+    "notifyMeBackground": {
+      "type": "string"
+    },
+    "outOfStockText": {
+      "type": "string"
+    },
+    "outOfStockTextColor": {
+      "type": "string"
+    },
+    "outOfStockBackground": {
+      "type": "string"
+    },
+    "viewCartText": {
+      "type": "string"
+    },
+    "viewCartTextColor": {
+      "type": "string"
+    },
+    "viewCartBackground": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "isComponent": {
+      "type": "boolean"
+    }
+  }
+}

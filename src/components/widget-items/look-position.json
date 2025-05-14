@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_items_look_positions",
+  "info": {
+    "displayName": "LookPosition",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "tooltipMsg": {
+      "type": "string"
+    },
+    "tooltipPlacement": {
+      "type": "string"
+    },
+    "top": {
+      "type": "string"
+    },
+    "left": {
+      "type": "string"
+    },
+    "products": {
+      "type": "richtext"
+    },
+    "path": {
+      "type": "string"
+    },
+    "mobileTopPosition": {
+      "type": "string"
+    },
+    "mobileLeftPosition": {
+      "type": "string"
+    }
+  }
+}

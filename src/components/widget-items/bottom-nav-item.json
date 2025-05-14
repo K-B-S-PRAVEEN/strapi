@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_widget_items_bottom_nav_items",
+  "info": {
+    "displayName": "BottomNavItem",
+    "icon": "euro-sign"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "identifiers": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "activeColor": {
+      "type": "string"
+    },
+    "subItems": {
+      "displayName": "BottomNavSItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.bottom-nav-s-item"
+    }
+  }
+}

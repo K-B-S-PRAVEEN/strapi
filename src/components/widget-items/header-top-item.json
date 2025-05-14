@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_items_header_top_items",
+  "info": {
+    "displayName": "HeaderTopItem",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconUrl": {
+      "type": "string"
+    },
+    "iconText": {
+      "type": "string"
+    },
+    "iconPath": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

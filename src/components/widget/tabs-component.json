@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_widget_tabs_components",
+  "info": {
+    "displayName": "TabsComponent",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "isComponentDiffer": {
+      "type": "boolean"
+    },
+    "ComponentName": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "TabsComponentItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.tabs-component-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

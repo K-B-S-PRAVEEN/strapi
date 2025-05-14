@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_expert_advice_items",
+  "info": {
+    "displayName": "ExpertAdviceItem",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconUrl": {
+      "type": "string"
+    },
+    "titlePath": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blog_widget_items_nav_items",
+  "info": {
+    "displayName": "NavItem",
+    "icon": "chart-pie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "NavSubItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.nav-sub-item"
+    },
+    "titlePath": {
+      "type": "string"
+    },
+    "isTabActive": {
+      "type": "boolean"
+    }
+  }
+}

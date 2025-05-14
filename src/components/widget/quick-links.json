@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_widget_quick_links",
+  "info": {
+    "displayName": "QuickLinks",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "QuickLinksItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.quick-links-items"
+    },
+    "mobileItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.quick-links-items"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

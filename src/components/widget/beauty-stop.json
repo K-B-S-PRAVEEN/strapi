@@ -1,0 +1,91 @@
+{
+  "collectionName": "components_widget_beauty_stops",
+  "info": {
+    "displayName": "BeautyStop",
+    "icon": "book-reader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardDescription": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BeautyStopItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.beauty-stop-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "beautyButton": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "boolean"
+    },
+    "shareIcon": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "viewIcon": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "ViewsText": {
+      "type": "string"
+    },
+    "showSubText": {
+      "type": "boolean"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

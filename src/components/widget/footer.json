@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "list-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "FooterItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.footer-item"
+    }
+  }
+}

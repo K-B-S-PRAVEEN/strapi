@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widget_items_brand_list_items",
+  "info": {
+    "displayName": "BrandListItems",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brandName": {
+      "type": "string"
+    },
+    "brandCode": {
+      "type": "string"
+    },
+    "navType": {
+      "type": "enumeration",
+      "enum": [
+        "listing",
+        "landing"
+      ]
+    },
+    "navUrl": {
+      "type": "string"
+    },
+    "mappingSlug": {
+      "type": "string"
+    },
+    "hide": {
+      "type": "boolean"
+    }
+  }
+}

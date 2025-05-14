@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_logo_text_items",
+  "info": {
+    "displayName": "BenefitsItem",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

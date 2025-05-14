@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_items_product_detail_items",
+  "info": {
+    "displayName": "ProductDetailItem",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "iconText": {
+      "type": "string"
+    }
+  }
+}

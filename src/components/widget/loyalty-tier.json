@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_widget_loyalty_tiers",
+  "info": {
+    "displayName": "LoyaltyTier",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "isComponent": {
+      "type": "boolean"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "LoyalityTierDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.loyality-tier-detail"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_widget_items_why_consultant_items",
+  "info": {
+    "displayName": "WhyConsultantItem",
+    "icon": "capsules",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "iconText": {
+      "type": "string"
+    },
+    "mobileIcon": {
+      "type": "string"
+    }
+  }
+}

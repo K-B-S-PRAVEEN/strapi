@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_widget_lipstick_shaders",
+  "info": {
+    "displayName": "LipstickShader",
+    "icon": "hand-holding-heart"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "LipstickShadeItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.lipstick-shade-item"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_items_shop_by_luxury_items",
+  "info": {
+    "displayName": "ShopByLuxuryItem",
+    "icon": "cheese",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "textBgColor": {
+      "type": "string"
+    },
+    "border": {
+      "type": "string"
+    },
+    "creative_name": {
+      "type": "string"
+    },
+    "creative_slot": {
+      "type": "string"
+    }
+  }
+}

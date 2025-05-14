@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_saved_payment_items",
+  "info": {
+    "displayName": "SavedPaymentItem",
+    "icon": "house-damage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subCategories": {
+      "displayName": "SavedPaymentSubItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.saved-payment-sub-item"
+    }
+  }
+}

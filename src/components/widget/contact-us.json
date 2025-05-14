@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_widget_contactuses",
+  "info": {
+    "displayName": "ContactUs",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "caution_note": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "contactDetails": {
+      "displayName": "ContactDetails",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.contact-details"
+    },
+    "formList": {
+      "displayName": "ContactForm",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.contact-form"
+    }
+  }
+}

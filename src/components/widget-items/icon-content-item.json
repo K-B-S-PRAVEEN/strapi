@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_items_icon_content_items",
+  "info": {
+    "displayName": "IconContentItem",
+    "icon": "bowling-ball"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

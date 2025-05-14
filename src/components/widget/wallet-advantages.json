@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_wallet_advantages",
+  "info": {
+    "displayName": "WalletAdvantages",
+    "icon": "funnel-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "walletButton": {
+      "type": "string"
+    },
+    "walletButtonPath": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "WalletAdvantagesItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.wallet-advantages-item"
+    },
+    "giftCardInfo": {
+      "type": "string"
+    }
+  }
+}

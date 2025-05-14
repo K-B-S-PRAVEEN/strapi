@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_items_tabs_component_items",
+  "info": {
+    "displayName": "TabsComponentItem",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "textPath": {
+      "type": "string"
+    },
+    "isTabActive": {
+      "type": "boolean"
+    },
+    "textbgColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_blog_widget_blog_carousels",
+  "info": {
+    "displayName": "BlogCarousel",
+    "icon": "caret-square-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BlogCarouselItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-carousel-item"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

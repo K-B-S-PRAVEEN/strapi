@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_widget_items_consult_service_items",
+  "info": {
+    "displayName": "ConsultServiceItem",
+    "icon": "cart-arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "imgUrlMobile": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "freeText": {
+      "type": "string"
+    },
+    "selectedItem": {
+      "type": "string"
+    },
+    "trailText": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "serviceDropDownTitle": {
+      "type": "string"
+    },
+    "paymentsTrailText": {
+      "type": "string"
+    }
+  }
+}

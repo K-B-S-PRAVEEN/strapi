@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_widget_items_grid_carousel_items",
+  "info": {
+    "displayName": "GridCarouselItem",
+    "icon": "cloud-meatball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "subTextColor": {
+      "type": "string"
+    },
+    "offerBackground": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "mobileTitle": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

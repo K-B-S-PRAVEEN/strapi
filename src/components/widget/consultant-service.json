@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widget_consultant_services",
+  "info": {
+    "displayName": "consultantService",
+    "icon": "campground",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "ConsultServiceItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.consult-service-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    }
+  }
+}

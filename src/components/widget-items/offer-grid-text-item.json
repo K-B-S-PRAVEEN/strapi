@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_widget_items_offer_grid_text_items",
+  "info": {
+    "displayName": "OfferGridTextItem",
+    "icon": "cart-plus"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "tileText": {
+      "type": "string"
+    },
+    "tileTextColor": {
+      "type": "string"
+    },
+    "tileSubText": {
+      "type": "string"
+    },
+    "tileSubTextColor": {
+      "type": "string"
+    },
+    "tileTextBackground": {
+      "type": "string"
+    },
+    "descriptionColor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "WebtileTextPaddingHorizontal": {
+      "type": "string"
+    },
+    "WebtileTextPaddingVertical": {
+      "type": "string"
+    },
+    "MobiletileTextPaddingHorizontal": {
+      "type": "string"
+    },
+    "MobiletileTextPaddingVertical": {
+      "type": "string"
+    }
+  }
+}

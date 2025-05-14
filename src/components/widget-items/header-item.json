@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_items_header_items",
+  "info": {
+    "displayName": "HeaderItem",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "webUrl": {
+      "type": "string"
+    },
+    "mobileText": {
+      "type": "string"
+    },
+    "mobileIconUrl": {
+      "type": "string"
+    },
+    "subItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.advice-items"
+    },
+    "isNavigateToPLP": {
+      "type": "boolean"
+    }
+  }
+}

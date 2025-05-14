@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_widget_items_quick_links_items",
+  "info": {
+    "displayName": "QuickLinksItems",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    },
+    "isNewTab": {
+      "type": "boolean"
+    }
+  }
+}

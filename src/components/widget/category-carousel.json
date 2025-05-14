@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_widget_category_carousels",
+  "info": {
+    "displayName": "CategoryCarousel",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgpadding": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "CategoryCarouselItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.category-carousel-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

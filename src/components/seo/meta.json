@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_seo_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "tagType": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "meta",
+        "script"
+      ]
+    },
+    "script": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_items_offer_grid_data_items",
+  "info": {
+    "displayName": "OfferGridDataItem",
+    "icon": "bowling-ball"
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "imgUrlMobile": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "stripText": {
+      "type": "string"
+    },
+    "stripPadding": {
+      "type": "string"
+    },
+    "stripMargin": {
+      "type": "string"
+    },
+    "boxText": {
+      "type": "string"
+    },
+    "boxSubText": {
+      "type": "string"
+    }
+  }
+}

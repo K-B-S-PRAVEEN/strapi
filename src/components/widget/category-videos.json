@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_category_videos",
+  "info": {
+    "displayName": "CategoryVideos",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.category-videos-item"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

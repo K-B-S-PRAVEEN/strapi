@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_nested_sub_items",
+  "info": {
+    "displayName": "NestedSubItem",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "info": {
+      "type": "richtext"
+    }
+  }
+}

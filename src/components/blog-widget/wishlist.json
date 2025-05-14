@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_widget_wishlists",
+  "info": {
+    "displayName": "Wishlist",
+    "icon": "weight-hanging",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    }
+  }
+}

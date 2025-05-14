@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_widget_items_events_items",
+  "info": {
+    "displayName": "EventsItem",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "eventDetailsTitle": {
+      "type": "string"
+    },
+    "registerBtn": {
+      "type": "string"
+    },
+    "registerBtnPath": {
+      "type": "string"
+    },
+    "imgUrlMobile": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "date": {
+      "type": "richtext"
+    },
+    "time": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_blog_widget_items_benefits_items",
+  "info": {
+    "displayName": "BenefitsItem",
+    "icon": "city",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "mobileImageurl": {
+      "type": "string"
+    },
+    "shadowImage": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imageDirection": {
+      "type": "boolean"
+    },
+    "path": {
+      "type": "string"
+    },
+    "embedText": {
+      "type": "richtext"
+    },
+    "showEmbed": {
+      "type": "boolean"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    },
+    "headingLevel": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_items_product_listing_items",
+  "info": {
+    "displayName": "ProductListingItem",
+    "icon": "chalkboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

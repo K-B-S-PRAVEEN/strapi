@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_blog_widget_items_blog_videos_items",
+  "info": {
+    "displayName": "BlogVideosItem",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "mobileImageUrl": {
+      "type": "string"
+    },
+    "videoButtonImageUrl": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "ContentText": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

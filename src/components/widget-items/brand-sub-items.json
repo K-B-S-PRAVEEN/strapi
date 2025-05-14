@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_brand_sub_items",
+  "info": {
+    "displayName": "BrandSubItems",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "logoUrl": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    }
+  }
+}

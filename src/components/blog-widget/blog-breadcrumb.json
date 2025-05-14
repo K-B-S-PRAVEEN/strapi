@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_blog_widget_blog_breadcrumbs",
+  "info": {
+    "displayName": "BlogBreadcrumb",
+    "icon": "backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "levelOneText": {
+      "type": "string"
+    },
+    "levelOnePath": {
+      "type": "string"
+    },
+    "levelTwoText": {
+      "type": "string"
+    },
+    "levelTwoPath": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "levelThreeText": {
+      "type": "string"
+    },
+    "levelThreePath": {
+      "type": "string"
+    },
+    "isComponentDiffer": {
+      "type": "boolean"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "levelFourText": {
+      "type": "string"
+    },
+    "levelFourPath": {
+      "type": "string"
+    }
+  }
+}

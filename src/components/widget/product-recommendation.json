@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_product_recommendations",
+  "info": {
+    "displayName": "ProductRecommendation",
+    "icon": "copy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "bgImageUrl": {
+      "type": "string"
+    },
+    "bgImageUrlMobile": {
+      "type": "string"
+    },
+    "event": {
+      "type": "enumeration",
+      "enum": [
+        "product-views"
+      ]
+    },
+    "isRecommended": {
+      "type": "boolean"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_widget_product_listings",
+  "info": {
+    "displayName": "ProductListing",
+    "icon": "drum-steelpan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "ProductListingItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.product-listing-item"
+    },
+    "isVirtualCategory": {
+      "type": "boolean"
+    },
+    "productsVC": {
+      "type": "json"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

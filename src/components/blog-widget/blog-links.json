@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_blog_widget_blog_links",
+  "info": {
+    "displayName": "BlogLinks",
+    "icon": "border-none",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewMore": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-links-item"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "viewMorePath": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

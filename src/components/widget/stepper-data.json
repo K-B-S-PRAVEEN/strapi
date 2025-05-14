@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_stepper_data",
+  "info": {
+    "displayName": "StepperData",
+    "icon": "capsules",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "boolean"
+    },
+    "categoryId": {
+      "type": "string"
+    },
+    "categories": {
+      "displayName": "StepperCategory",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.stepper-category"
+    }
+  }
+}

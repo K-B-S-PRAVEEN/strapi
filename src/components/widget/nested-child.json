@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_widget_nested_children",
+  "info": {
+    "displayName": "NestedChild",
+    "icon": "door-closed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "bottomText": {
+      "type": "string"
+    },
+    "categories": {
+      "displayName": "NestedItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.nested-item"
+    }
+  }
+}

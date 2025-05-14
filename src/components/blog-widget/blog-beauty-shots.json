@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_blog_widget_blog_beauty_shots",
+  "info": {
+    "displayName": "BlogBeautyShots",
+    "icon": "arrow-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.beauty-shot-items"
+    },
+    "frame": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-widget-items.blog-frame"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

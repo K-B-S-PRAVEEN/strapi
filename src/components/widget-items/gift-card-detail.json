@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_items_gift_card_details",
+  "info": {
+    "displayName": "GiftCardDetail",
+    "icon": "box-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "editIcon": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "string"
+    },
+    "cols": {
+      "type": "string"
+    },
+    "showEditIcon": {
+      "type": "boolean"
+    }
+  }
+}

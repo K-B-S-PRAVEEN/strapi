@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_items_product_pop_text_items",
+  "info": {
+    "displayName": "ProductPopTextItem",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "string"
+    },
+    "buttonBackgroundColor": {
+      "type": "string"
+    }
+  }
+}

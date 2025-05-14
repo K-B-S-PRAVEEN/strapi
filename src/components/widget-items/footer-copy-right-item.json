@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_items_footer_copy_right_items",
+  "info": {
+    "displayName": "FooterCopyRightItem",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

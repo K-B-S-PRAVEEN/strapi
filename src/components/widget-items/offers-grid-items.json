@@ -1,0 +1,74 @@
+{
+  "collectionName": "components_widget_items_offers_grid_items",
+  "info": {
+    "displayName": "OffersGridItems",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "offerBackground": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    },
+    "subTextColor": {
+      "type": "string"
+    },
+    "WebtextPaddingX": {
+      "type": "string"
+    },
+    "WebtextPaddingY": {
+      "type": "string"
+    },
+    "MobiletextPaddingX": {
+      "type": "string"
+    },
+    "MobiletextPaddingY": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    },
+    "isFlipActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "flipImageUrl": {
+      "type": "string"
+    },
+    "flipMobileImageUrl": {
+      "type": "string"
+    }
+  }
+}

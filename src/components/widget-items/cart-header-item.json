@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_items_cart_header_items",
+  "info": {
+    "displayName": "cartHeaderItem",
+    "icon": "flag"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "textPath": {
+      "type": "string"
+    },
+    "textOnHeader": {
+      "type": "boolean"
+    },
+    "isTextColorActive": {
+      "type": "string"
+    },
+    "isTextColorInactive": {
+      "type": "string"
+    }
+  }
+}

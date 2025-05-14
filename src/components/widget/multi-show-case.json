@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_widget_multi_show_cases",
+  "info": {
+    "displayName": "MultiShowCase",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "MultiShowCaseItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.multi-show-case-item"
+    },
+    "contentImageUrl": {
+      "type": "string"
+    },
+    "contentImageUrlMobile": {
+      "type": "string"
+    },
+    "contentLeft": {
+      "type": "boolean"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "zigzag": {
+      "type": "boolean"
+    },
+    "path": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

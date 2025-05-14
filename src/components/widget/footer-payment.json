@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_widget_footer_payments",
+  "info": {
+    "displayName": "FooterPayment",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "FooterPaymentItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.footer-payment-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

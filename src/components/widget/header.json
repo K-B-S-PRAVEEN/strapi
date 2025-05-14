@@ -1,0 +1,88 @@
+{
+  "collectionName": "components_widget_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "kaaba",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "logoImageUrl": {
+      "type": "string"
+    },
+    "logoPath": {
+      "type": "string"
+    },
+    "searchIconUrl": {
+      "type": "string"
+    },
+    "searchText": {
+      "type": "string"
+    },
+    "signInText": {
+      "type": "string"
+    },
+    "signInPath": {
+      "type": "string"
+    },
+    "userIconUrl": {
+      "type": "string"
+    },
+    "userIconPath": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaLabelBgColor": {
+      "type": "string"
+    },
+    "ctaLabelColor": {
+      "type": "string"
+    },
+    "ctaLabelUrl": {
+      "type": "string"
+    },
+    "wishListIconUrl": {
+      "type": "string"
+    },
+    "wishListPath": {
+      "type": "string"
+    },
+    "cartIconUrl": {
+      "type": "string"
+    },
+    "cartIconPath": {
+      "type": "string"
+    },
+    "crossIconUrl": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.header-item"
+    },
+    "topIconUrl": {
+      "type": "string"
+    },
+    "topItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.header-top-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    }
+  }
+}

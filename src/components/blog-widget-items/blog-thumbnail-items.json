@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_blog_widget_items_blog_thumbnail_items",
+  "info": {
+    "displayName": "BlogThumbnailItem",
+    "icon": "ellipsis-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "viewsText": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "numberOfViews": {
+      "type": "string"
+    },
+    "viewsIcon": {
+      "type": "string"
+    },
+    "shareIcon": {
+      "type": "string"
+    },
+    "readMorepath": {
+      "type": "string"
+    },
+    "readMore": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

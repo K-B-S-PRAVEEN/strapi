@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_saved_payment_empties",
+  "info": {
+    "displayName": "SavedPaymentEmpty",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "isComponent": {
+      "type": "boolean"
+    }
+  }
+}

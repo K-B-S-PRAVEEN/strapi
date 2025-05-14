@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_widget_stepper_banners",
+  "info": {
+    "displayName": "StepperBanner",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "isComponentDiffer": {
+      "type": "boolean"
+    },
+    "items": {
+      "displayName": "StepperBItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.stepper-b-item"
+    }
+  }
+}

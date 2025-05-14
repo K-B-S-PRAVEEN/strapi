@@ -1,0 +1,85 @@
+{
+  "collectionName": "components_blog_widget_blog_details",
+  "info": {
+    "displayName": "BlogDetail",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "arrowImageUrl": {
+      "type": "string"
+    },
+    "galleryButtonText": {
+      "type": "string"
+    },
+    "galleryImageUrl": {
+      "type": "string"
+    },
+    "numberOfViews": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "bannerItems": {
+      "displayName": "BlogDetailItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-detail-item"
+    },
+    "galleryItems": {
+      "displayName": "GalleryItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.gallery-item"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "topButtonPath": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "authorNamePath": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

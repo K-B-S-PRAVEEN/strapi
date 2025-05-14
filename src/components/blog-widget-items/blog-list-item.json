@@ -1,0 +1,85 @@
+{
+  "collectionName": "components_blog_widget_items_blog_list_items",
+  "info": {
+    "displayName": "BlogListItem",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "readMoreText": {
+      "type": "string"
+    },
+    "viewText": {
+      "type": "string"
+    },
+    "chiptext": {
+      "type": "string"
+    },
+    "readMorePath": {
+      "type": "string"
+    },
+    "isSharable": {
+      "type": "boolean"
+    },
+    "position": {
+      "type": "boolean"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "imgUrlMobile": {
+      "type": "string"
+    },
+    "viewsIcon": {
+      "type": "string"
+    },
+    "shareIcon": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "isVideo": {
+      "type": "boolean"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    },
+    "playIconUrlWeb": {
+      "type": "string"
+    },
+    "playIconUrlApp": {
+      "type": "string"
+    }
+  }
+}

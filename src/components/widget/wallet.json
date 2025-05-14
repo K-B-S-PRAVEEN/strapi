@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_wallets",
+  "info": {
+    "displayName": "Wallet",
+    "icon": "quran"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

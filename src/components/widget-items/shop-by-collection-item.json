@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_widget_items_shop_by_collection_items",
+  "info": {
+    "displayName": "ShopByCollectionItems",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "textHoverBG": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "creative_name": {
+      "type": "string"
+    },
+    "creative_slot": {
+      "type": "string"
+    }
+  }
+}

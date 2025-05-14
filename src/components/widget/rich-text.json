@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_widget_rich_texts",
+  "info": {
+    "displayName": "RichText",
+    "icon": "grin-tongue",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "richtext"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "showButton": {
+      "type": "boolean"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

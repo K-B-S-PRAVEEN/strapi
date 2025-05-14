@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widget_why_consultants",
+  "info": {
+    "displayName": "WhyConsultant",
+    "icon": "battery-three-quarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "WhyConsultantItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.why-consultant-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_widget_hero_banners",
+  "info": {
+    "displayName": "HeroBanner",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "autoPlay": {
+      "type": "boolean"
+    },
+    "controlType": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.hero-banner-items"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "autoScroll": {
+      "type": "boolean"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "promotion_id": {
+      "type": "string"
+    },
+    "promotion_name": {
+      "type": "string"
+    }
+  }
+}

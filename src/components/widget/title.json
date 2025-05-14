@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_widget_titles",
+  "info": {
+    "displayName": "Title",
+    "icon": "volleyball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "strikeThrough": {
+      "type": "boolean"
+    },
+    "logoTitle": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

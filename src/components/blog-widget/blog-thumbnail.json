@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_blog_widget_blog_thumbnails",
+  "info": {
+    "displayName": "BlogThumbnail",
+    "icon": "chess-board",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-thumbnail-items"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "viewMorePath": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

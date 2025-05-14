@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_widget_products_grids",
+  "info": {
+    "displayName": "ProductsGrid",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "isproduct": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "isVirtualCategory": {
+      "type": "boolean"
+    },
+    "productsVC": {
+      "type": "json"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

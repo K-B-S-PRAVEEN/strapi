@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_items_category_videos_items",
+  "info": {
+    "displayName": "CategoryVideosItem",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imgUrlWeb": {
+      "type": "string"
+    },
+    "imgUrlApp": {
+      "type": "string"
+    },
+    "playIconWeb": {
+      "type": "string"
+    },
+    "playIconApp": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "isVideo": {
+      "type": "boolean"
+    },
+    "playIconUrl": {
+      "type": "string"
+    },
+    "VideoIconUrl": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  }
+}

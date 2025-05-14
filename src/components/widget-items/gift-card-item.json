@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_items_gift_card_items",
+  "info": {
+    "displayName": "GiftCardItem",
+    "icon": "bolt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "giftName": {
+      "type": "string"
+    },
+    "giftNamePath": {
+      "type": "string"
+    },
+    "identifer": {
+      "type": "boolean"
+    },
+    "subItems": {
+      "displayName": "GiftCardDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.gift-card-detail"
+    }
+  }
+}

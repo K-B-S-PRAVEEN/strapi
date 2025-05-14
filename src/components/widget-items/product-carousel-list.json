@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_widget_items_product_carousel_lists",
+  "info": {
+    "displayName": "ProductCarouselList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "field": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "exact",
+        "not-exact",
+        "Ite",
+        "It",
+        "gte",
+        "gt",
+        "range",
+        "contains"
+      ]
+    },
+    "value": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "type": "string"
+    }
+  }
+}

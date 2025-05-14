@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_blog_widget_items_blog_grid_items",
+  "info": {
+    "displayName": "BlogGridItem",
+    "icon": "bread-slice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "mobileImageUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "eyeLogo": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "viewsText": {
+      "type": "string"
+    },
+    "headText": {
+      "type": "string"
+    },
+    "readText": {
+      "type": "string"
+    },
+    "shareLogo": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "imgPath": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "imageAltText": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

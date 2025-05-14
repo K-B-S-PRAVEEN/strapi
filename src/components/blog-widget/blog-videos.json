@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_blog_widget_blog_videos",
+  "info": {
+    "displayName": "BlogVideos",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "isLarge": {
+      "type": "boolean"
+    },
+    "items": {
+      "displayName": "BlogVideosItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.blog-videos-item"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

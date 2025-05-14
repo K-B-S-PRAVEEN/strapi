@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_widget_gift_card_stores",
+  "info": {
+    "displayName": "GiftCardStore",
+    "icon": "cheese",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonPath": {
+      "type": "string"
+    },
+    "amountTitle": {
+      "type": "string"
+    },
+    "amountList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.gift-form-item"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.gift-form-item"
+    },
+    "senderTitle": {
+      "type": "string"
+    },
+    "senderList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.gift-form-item"
+    },
+    "senderBottomText": {
+      "type": "string"
+    },
+    "previewTitle": {
+      "type": "string"
+    },
+    "previewLogoUrl": {
+      "type": "string"
+    },
+    "previewLogoUrlPath": {
+      "type": "string"
+    },
+    "previewInnerTitle": {
+      "type": "string"
+    },
+    "previewInnerSubText": {
+      "type": "string"
+    },
+    "pleaseNoteText": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "GiftCardItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.gift-card-item"
+    }
+  }
+}

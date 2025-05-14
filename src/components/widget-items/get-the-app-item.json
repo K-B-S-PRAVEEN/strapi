@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_get_the_app_items",
+  "info": {
+    "displayName": "GetTheAppItem",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

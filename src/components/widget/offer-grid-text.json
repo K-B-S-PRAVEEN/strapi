@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_widget_offer_grid_texts",
+  "info": {
+    "displayName": "OfferGridText",
+    "icon": "church"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "showGradient": {
+      "type": "boolean"
+    },
+    "tileSpacing": {
+      "type": "string"
+    },
+    "itemPaddingBottom": {
+      "type": "string"
+    },
+    "itemPaddingHorizontal": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "desktopColumns": {
+      "type": "string"
+    },
+    "mobileColumns": {
+      "type": "string"
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "isBgColor": {
+      "type": "boolean"
+    },
+    "marginLeft": {
+      "type": "string"
+    },
+    "itemPaddingBottomMobile": {
+      "type": "string"
+    },
+    "itempaddingXMobile": {
+      "type": "string"
+    },
+    "WebtileTextPaddingHorizontal": {
+      "type": "string"
+    },
+    "WebtileTextPaddingVertical": {
+      "type": "string"
+    },
+    "MobiletileTextPaddingHorizontal": {
+      "type": "string"
+    },
+    "MobiletileTextPaddingVertical": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "OfferGridTextItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.offer-grid-text-item"
+    }
+  }
+}

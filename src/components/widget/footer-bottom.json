@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_widget_footer_bottoms",
+  "info": {
+    "displayName": "FooterBottom",
+    "icon": "baseball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    }
+  }
+}

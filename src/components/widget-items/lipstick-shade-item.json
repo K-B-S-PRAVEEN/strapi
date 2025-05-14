@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_items_lipstick_shade_items",
+  "info": {
+    "displayName": "LipstickShadeItem",
+    "icon": "cat"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "buttonResults": {
+      "type": "string"
+    },
+    "buttonResultsPath": {
+      "type": "string"
+    },
+    "quizText": {
+      "type": "string"
+    },
+    "quizPath": {
+      "type": "string"
+    }
+  }
+}

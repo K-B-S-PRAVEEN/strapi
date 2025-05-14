@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_widget_bottom_navigation_bars",
+  "info": {
+    "displayName": "BottomNavigationBar",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "items": {
+      "displayName": "BottomNavItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.bottom-nav-item"
+    }
+  }
+}

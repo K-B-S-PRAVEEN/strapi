@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_populr_brands_items",
+  "info": {
+    "displayName": "populrBrandsItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "mobileImageUrl": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

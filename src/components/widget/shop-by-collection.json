@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_widget_shop_by_collections",
+  "info": {
+    "displayName": "ShopByCollection",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewMoreLink": {
+      "type": "string"
+    },
+    "isTextHover": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.shop-by-collection-item"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "promotion_id": {
+      "type": "string"
+    },
+    "promotion_name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.header"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "blog-widget.blog-benefits"
+      ]
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.footer"
+    },
+    "footerBottom": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget.footer-bottom"
+    },
+    "footerCopyRights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.footer-copy-rights"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "other",
+        "listing",
+        "landing",
+        "detail"
+      ]
+    },
+    "BlogNavigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-widget.blog-navigation"
+    },
+    "breadcrumb": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-widget.blog-breadcrumb"
+    },
+    "BottomBar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bottom-bar"
+    }
+  }
+}

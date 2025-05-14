@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blog_widget_blog_quotes",
+  "info": {
+    "displayName": "BlogQuote",
+    "icon": "battery-three-quarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    }
+  }
+}

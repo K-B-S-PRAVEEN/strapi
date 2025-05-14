@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_blog_widget_blog_benefits",
+  "info": {
+    "displayName": "BlogBenefits",
+    "icon": "gift",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "BenefitsItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-widget-items.benefits-item"
+    },
+    "keys": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "mobile"
+      ]
+    },
+    "enableJumplinks": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_widget_title_tabs",
+  "info": {
+    "displayName": "TitleTab",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "fontWeight": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "componentType": {
+      "type": "string"
+    },
+    "mobileFontSize": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "web",
+        "app",
+        "hidden"
+      ],
+      "default": "all"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}

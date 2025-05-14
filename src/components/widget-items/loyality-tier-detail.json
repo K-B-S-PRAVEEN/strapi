@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widget_items_loyality_tier_details",
+  "info": {
+    "displayName": "LoyalityTierDetail",
+    "icon": "arrow-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "enumeration",
+      "enum": [
+        "tier1",
+        "tier2",
+        "tier3",
+        "tier4"
+      ]
+    },
+    "icon_png": {
+      "type": "string"
+    }
+  }
+}

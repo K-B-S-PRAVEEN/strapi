@@ -1,0 +1,78 @@
+{
+  "collectionName": "components_widget_fc_data",
+  "info": {
+    "displayName": "FcData",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navTitle": {
+      "type": "string"
+    },
+    "navImgUrl": {
+      "type": "string"
+    },
+    "navImgUrlPath": {
+      "type": "string"
+    },
+    "navImgUrlMobile": {
+      "type": "string"
+    },
+    "navImgUrlMobilPath": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.fc-nav-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "loginButton": {
+      "type": "string"
+    },
+    "loginButtonPath": {
+      "type": "string"
+    },
+    "signUpButton": {
+      "type": "string"
+    },
+    "signUpButtonPath": {
+      "type": "string"
+    },
+    "isLoggedIn": {
+      "type": "boolean"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.fc-tier-description"
+    },
+    "fcLogo": {
+      "type": "string"
+    },
+    "fcNacInnerTitle": {
+      "type": "string"
+    },
+    "fcNavInnerSubTitle": {
+      "type": "string"
+    },
+    "fcTierTitle": {
+      "type": "string"
+    },
+    "fcTierSubTitle": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    }
+  }
+}

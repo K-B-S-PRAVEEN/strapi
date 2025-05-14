@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_items_shop_look_items",
+  "info": {
+    "displayName": "ShopLookItem",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "plusImage": {
+      "type": "string"
+    },
+    "circleImage": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "boolean"
+    },
+    "subItems": {
+      "displayName": "LookPosition",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.look-position"
+    },
+    "products": {
+      "type": "json"
+    },
+    "mobileImageUrl": {
+      "type": "string"
+    }
+  }
+}

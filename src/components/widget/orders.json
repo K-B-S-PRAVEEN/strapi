@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_orders",
+  "info": {
+    "displayName": "Orders",
+    "icon": "chess-knight"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

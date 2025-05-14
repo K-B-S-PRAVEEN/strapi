@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_items_footer_sub_items",
+  "info": {
+    "displayName": "FooterSubItem",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

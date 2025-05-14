@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_widget_items_beauty_stop_items",
+  "info": {
+    "displayName": "BeautyStopItem",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "viewsIcon": {
+      "type": "string"
+    },
+    "viewsText": {
+      "type": "string"
+    },
+    "shareText": {
+      "type": "string"
+    },
+    "shareIcon": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "Item_name": {
+      "type": "string"
+    },
+    "Item_type": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "offer",
+        "promotion",
+        "banner",
+        "category",
+        "brand"
+      ]
+    }
+  }
+}

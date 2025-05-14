@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_items_stepper_items",
+  "info": {
+    "displayName": "StepperItem",
+    "icon": "cannabis",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

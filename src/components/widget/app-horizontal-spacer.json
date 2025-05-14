@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_widget_app_horizontal_spacers",
+  "info": {
+    "displayName": "AppHorizontalSpacer",
+    "icon": "chess-board",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "Desktop",
+        "App",
+        "Msite"
+      ]
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    }
+  }
+}

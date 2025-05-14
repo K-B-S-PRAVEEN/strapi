@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_widget_items_contact_forms",
+  "info": {
+    "displayName": "ContactForm",
+    "icon": "cash-register",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isRequired": {
+      "type": "boolean"
+    },
+    "label": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "ContactSubList",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.contact-sub-list"
+    },
+    "validationType": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "input_type": {
+      "type": "string"
+    },
+    "xs": {
+      "type": "string"
+    },
+    "md": {
+      "type": "string"
+    },
+    "maxLength": {
+      "type": "integer"
+    }
+  }
+}
